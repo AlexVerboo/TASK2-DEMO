@@ -4,7 +4,7 @@ resource "google_service_account" "sa_servicio_task2" {
 }
 resource "google_project_iam_custom_role" "custom_role" {
   role_id     = "myCustomRoletask2"
-  title       = "My Custom Role"
+  title       = "My Custom Role for 2"
   description = "A description"
   permissions = ["iam.roles.list","iam.roles.create", "iam.roles.delete","pubsub.schemas.get","pubsub.schemas.get","pubsub.schemas.list","pubsub.schemas.validate","pubsub.snapshots.get","pubsub.snapshots.list","pubsub.subscriptions.get","pubsub.subscriptions.list","pubsub.topics.get","pubsub.topics.list","resourcemanager.projects.get","serviceusage.quotas.get","serviceusage.services.get","serviceusage.services.list"]
 }
