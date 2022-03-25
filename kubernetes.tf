@@ -88,10 +88,6 @@ resource "kubernetes_ingress" "example_ingress" {
         }
       }
     }
-
-    tls {
-      secret_name = "tls-secret"
-    }
   }
 }
 
