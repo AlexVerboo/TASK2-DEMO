@@ -59,6 +59,7 @@ resource "kubernetes_service" "mi-servicio" {
     selector = {
       app = "deploy"
     }
+    type = "NodePort"
     port{
       port = 80
       protocol = "TCP"

@@ -1,5 +1,9 @@
 # TASK2-DEMO
+Author: Alex Verboonen Cabrera
+This repo holds the terraform files which will deploy and destroy infrastructure on GCP
+All of the compnents used in this proyect are for educational propurses only, the use of this proyect will be set to be private one its use is over.
 
+As requested. this are the roles required for the Service account that shoud be manager on this taks:
 
 
 roles/container.admin	Administrador de Kubernetes Engine	
