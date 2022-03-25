@@ -40,6 +40,9 @@ resource "kubernetes_deployment" "deploy" {
         container {
           image = "ghost:alpine"
           name  = "deploy"
+          port {
+            container_port = "2368"
+          }
         }
       }
     }
