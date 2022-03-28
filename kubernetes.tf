@@ -60,13 +60,13 @@ resource "kubernetes_service" "mi-servicio" {
   }
   spec {
     selector = {
-      app = "deploy"
+      test = "demo"
     }
     type = "NodePort"
     port{
       port = 80
       protocol = "TCP"
-      target_port = 80
+      target_port = 2368
     }
 }
 }
